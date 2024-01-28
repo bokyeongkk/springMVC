@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+* /request-param으로 전달해도 데이터가 보이는 이유
+request.getParameter()는 GET URL 쿼리 파라미터 형식도 지원하고, POST HTML Form 형식 둘 다 지원한다.
+-->
+<form action="/requset-param" method="post">
+  username: <input type="text" name="username" />
+  age:      <input type="text" name="age" />
+  <button type="submit">전송</button>
+</form>
+</body>
+</html>
